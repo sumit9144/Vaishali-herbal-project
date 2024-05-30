@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Card Images</title>
+    <style>
+        .card {
+            display: inline-block;
+            width: 300px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            overflow: hidden;
+            /* To contain the animation */
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            transition: opacity 0.5s ease-in-out;
+            /* Apply transition effect */
+        }
+
+        .thumbnail {
+            width: 50px;
+            height: 50px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .thumbnails {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start Main Top -->
+    <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                    <div class="right-phone-box">
+                        <p>Call US :- <a href="#"> +91 888705770</a></p>
+                    </div>
+                    <div class="our-link">
+                        <ul>
+
+                            <li><a href="./contact-us.html"><i class="fas fa-headset"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> VAISHNAVI herbal
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80% off on herbal products
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Top -->
+
+    <!-- Start Main Top -->
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"
+                        aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/LOGO.jpeg"
+                            style='width:100px; height:74px;' class="logo" alt=""></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="dropdown">
+                            <a href="categories.html" class="nav-link dropdown-toggle arrow"
+                                data-toggle="dropdown">categories</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="categories.html">categories 1</a></li>
+                                <li><a href="categories.html">categories 1</a></li>
+                                <li><a href="categories.html">categories 1</a></li>
+                                <li><a href="categories.html">categories 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+
+                    </ul>
+                </div>
+                <!-- End Atribute Navigation -->
+            </div>
+            <!-- Start Side Menu -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                <li class="cart-box">
+                    <ul class="cart-list">
+                        <li>
+                            <a href="#" class="photo"><img src="images/ayurveda_hospital.jpg" class="cart-thumb"
+                                    alt="" /></a>
+                            <h6><a href="#">Delica omtantur </a></h6>
+                            <p>1x - <span class="price">Rs.80.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/ayurveda_hospital.jpg" class="cart-thumb"
+                                    alt="" /></a>
+                            <h6><a href="#">Omnes ocurreret</a></h6>
+                            <p>1x - <span class="price">Rs.60.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/ayurveda_hospital.jpg" class="cart-thumb"
+                                    alt="" /></a>
+                            <h6><a href="#">Agam facilisis</a></h6>
+                            <p>1x - <span class="price">Rs.40.00</span></p>
+                        </li>
+                        <li class="total">
+                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
+                            <span class="float-right"><strong>Total</strong>:Rs.180.00</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+            <!-- End Side Menu -->
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Main Top -->
+
+    <!-- Start Top Search -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Search -->
+    <div class="card">
+        <img id="mainImage1" src="./images/IMG_1455.png" alt="Main Image 1">
+        <div class="thumbnails">
+            <img class="thumbnail" src="./images/IMG_1456.png" alt="Thumbnail 1"
+                onclick="changeMainImage('mainImage1', './images/IMG_1456.png')">
+            <img class="thumbnail" src="./images/IMG_1455.png" alt="Thumbnail 2"
+                onclick="changeMainImage('mainImage1', './images/IMG_1455.png')">
+        </div>
+    </div>
+    <div class="card">
+        <img id="mainImage2" src="./images/IMG_1431.png" alt="Main Image 2">
+        <div class="thumbnails">
+            <img class="thumbnail" src="./images/IMG_1432.png" alt="Thumbnail 1"
+                onclick="changeMainImage('mainImage2', './images/IMG_1432.png')">
+            <img class="thumbnail" src="./images/IMG_1431.png" alt="Thumbnail 2"
+                onclick="changeMainImage('mainImage2', './images/IMG_1431.png')">
+        </div>
+    </div>
+
+    <script>
+        function changeMainImage(mainImageId, newImageUrl) {
+            var mainImage = document.getElementById(mainImageId);
+            mainImage.style.opacity = '0'; // Fade out
+            setTimeout(function () {
+                mainImage.src = newImageUrl;
+                mainImage.style.opacity = '1'; // Fade in
+            }, 500); // Delay to match transition duration
+        }
+    </script>
+</body>
+
+</html>
